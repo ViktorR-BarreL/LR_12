@@ -16,7 +16,7 @@ begin
     if (i mod j = 0) then inc(k);
     if k = 5 then s+=i;
     end;
-  assign(z32, 'c:\z3.out');
+  assign(z32, 'c:\z3.out.txt');
   rewrite(z32);
   write(z32, s);
   close(z32);
